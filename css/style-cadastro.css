@@ -41,7 +41,7 @@ body {
     color: #009e9e;
 }
 
-.col-1 {
+.form-register {
     background-color: #006a6a;
     width: 100%;
     padding: 1.2rem;
@@ -50,7 +50,7 @@ body {
 }
 
 .buttom {
-    width: 50%;
+    width: 100%;
     padding: 0.9rem 2rem;
     color: #006a6a;
     font-size: 1rem;
@@ -69,15 +69,8 @@ body {
     text-align: center;
 }
 
-.link-voltar {
-    text-align: center;
-    margin-top: 0.5rem;
-   
-}
-
 a {
-    color: #FFFFFF;
-    font-weight: 500;
+    color: #dd0000;
 }
 
 @media screen and (max-width: 620px) {
@@ -89,8 +82,7 @@ a {
         flex-direction: column;
     }
 
-    .col-1,
-    .col-2 {
+    .form-register {
         width: 100%;
         box-sizing: border-box;
     }
